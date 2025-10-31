@@ -1,0 +1,3 @@
+[2025-10-31T18:56:14.686303Z] Collection script started
+[2025-10-31T18:56:25.041741Z] SPRINGER_API_KEY not set — skipping Springer
+[2025-10-31T18:56:26.054005Z] No local BibTeX file found — skipping merge

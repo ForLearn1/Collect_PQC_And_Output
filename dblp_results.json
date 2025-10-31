@@ -1,0 +1,24 @@
+{
+  "result": {
+    "query": "post* quantum* cryptography* hybrid* key* exchange* PQC* migration* hybrid* KEM* TLS* PQC* KEMTLS*",
+    "status": {
+      "@code": "200",
+      "text": "OK"
+    },
+    "time": {
+      "@unit": "msecs",
+      "text": "8.46"
+    },
+    "completions": {
+      "@total": "0",
+      "@computed": "0",
+      "@sent": "0"
+    },
+    "hits": {
+      "@total": "0",
+      "@computed": "0",
+      "@sent": "0",
+      "@first": "0"
+    }
+  }
+}
