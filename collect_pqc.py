@@ -6,7 +6,7 @@ from urllib.parse import quote_plus
 from datetime import datetime
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
-import bibtexparser  # ✅ for local BibTeX merging
+import bibtexparser
 
 # === General configuration ===
 OUTDIR = 'collect_pqc_output'
@@ -30,7 +30,7 @@ HEADERS = {
 RATE_LIMIT_SECONDS = 1.0
 START_YEAR = 2016
 END_YEAR = 2025
-MAX_CROSSREF_RESULTS = 400  # ✅ limit to 400 papers
+MAX_CROSSREF_RESULTS = 400
 
 def log(msg):
     ts = datetime.utcnow().isoformat() + 'Z'
@@ -160,9 +160,7 @@ else:
 
 time.sleep(RATE_LIMIT_SECONDS)
 
-# --------------------------
-# === Merge with local BibTeX library ===
-# --------------------------
+
 BIB_FILE = 'export.bib'
 BIB_OUTPUT = os.path.join(OUTDIR, 'DB_results.json')
 
@@ -201,3 +199,4 @@ else:
 # === End of script ===
 # --------------------------
 print("End of requests...")
+
