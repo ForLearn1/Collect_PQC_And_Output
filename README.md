@@ -2,7 +2,6 @@
 The project enables reproducible research collection by combining APIs from arXiv, CrossRef, DBLP, IACR, Springer, and IEEE Xplore.
 All requests are timestamped, logged, and the outputs are stored in structured formats (.json, .atom, .html).
 
-
 **Key Features**
 
 Automated Collection: Retrieves metadata and publication records for defined PQC-related keywords.
