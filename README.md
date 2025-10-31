@@ -1,10 +1,31 @@
-# Collect_PQC_And_Output
-
 **Post-Quantum Cryptography Article Collector (2016–2025)**
-
-This repository provides a Python-based automated script for collecting metadata and bibliographic records of scientific articles related to Post-Quantum Cryptography (PQC) and hybrid key exchange mechanisms from multiple academic sources between 2016 and 2025.
 The project enables reproducible research collection by combining APIs from arXiv, CrossRef, DBLP, IACR, Springer, and IEEE Xplore.
 All requests are timestamped, logged, and the outputs are stored in structured formats (.json, .atom, .html).
+
+
+**Key Features**
+
+Automated Collection: Retrieves metadata and publication records for defined PQC-related keywords.
+
+Multi-Source Coverage: Integrates results from open-access repositories, APIs, and HTML scraping where necessary.
+
+Temporal Filtering: Supports collection of publications between 2016 and 2025, ensuring relevance to current and emerging research.
+
+Traceability: Logs exact query URLs, timestamps, and request headers for reproducibility.
+
+Structured Output: Saves results in machine-readable formats (.json, .atom, .html) for further analysis.
+
+Scalable and Extensible: Optional API keys enable access to private sources (Springer, IEEE) for richer datasets.
+
+**Scientific and Practical Utility**
+
+Supports Research and Development: Provides curated datasets for PQC and hybrid key exchange studies, facilitating literature reviews, benchmarking, and trend analysis.
+
+Enables Reproducibility: Ensures that queries, temporal ranges, and collection methods can be replicated, supporting rigorous academic research.
+
+Informs Strategic Decisions: Helps organizations track emerging standards and key publications relevant to PQC migration and hybrid KEM implementation.
+
+Facilitates Data Analysis: Results can be used for bibliometric studies, visualization of research trends, and identification of influential papers and authors.
 
 **Objectives**
 
